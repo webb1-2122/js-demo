@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Enkla lyssnare</h1>
+    <p>Detta demo visar enkla lyssnare.</p>
+    <section>
+      <h2>Enklast möjliga lyssnare</h2>
+      <p>
+        Allt går att göra klickbart. Klicka på texten för att ändra
+        bakgrundsfärg. Klicka på div för att ändra texten.
+      </p>
+      <p id="txt">Text som kan klickas på</p>
+      <div class="container">
+        <div id="box1" class="box">div som kan klickas på</div>
+
+        <div id="target-1" class="box">div som ändras</div>
+      </div>
+    </section>
+    <section>
+      <h2>Lägga till och ta bort klasser</h2>
+      <p>
+        Det är vanligt att jobba med att ha färdiga klasser som man tar bort
+        eller lägger till.
+      </p>
+      <div class="container">
+        <div id="box2" class="box">lägg till .large</div>
+        <div id="box3" class="box">ta bort .large</div>
+        <div id="box4" class="box">toggla .large</div>
+        <div id="target-classes" class="box">div som ändras</div>
+      </div>
+    </section>
+    <section>
+      <h2>Köra funktion vid klick</h2>
+      <p>Nu lägger vi en separat funktion som vi kan återanvända istället</p>
+      <div class="container">
+        <div id="box5" class="box">click</div>
+        <div id="box6" class="box">mouseOver</div>
+        <div id="box7" class="box">mouseOut</div>
+        <div id="target-func" class="box">div som ändras</div>
+      </div>
+    </section>
+    <section>
+      <h2>Du kan även ändra html</h2>
+      <p>
+        I exemplet ändrar vi text eller src beroende på vilken div som klickas
+      </p>
+      <div class="container">
+        <div id="box8" class="box">ändra text</div>
+        <div id="box9" class="box">bild 1</div>
+        <div id="box10" class="box">bild 2</div>
+        <img src="img/pexels-mitchell-luo-7013458.jpg" alt="" id="target-src" />
+      </div>
+    </section>
+    <section>
+      <h2>Starta och stoppa något som fortsätter köras</h2>
+      <p>Vi startar och stoppar en funktion som gör en rainbow på en ram</p>
+      <div class="container">
+        <div id="box11" class="box">Starta rainbow</div>
+        <div id="box12" class="box">Stoppa rainbow</div>
+        <div id="target-rainbow" class="box">div som ändras</div>
+      </div>
+    </section>
+  </body>
+</html>
